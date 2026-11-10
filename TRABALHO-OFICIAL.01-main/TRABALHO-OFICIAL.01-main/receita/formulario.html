@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Formulário</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <form action="processa.php" method="post">
+
+        <h1>Quem é você?</h1>
+
+        Nome:
+        <input type="text" name="nome" placeholder="Digite seu nome" required>
+
+        E-mail:
+        <input type="email" name="email" placeholder="Digite seu e-mail" required>
+
+        Telefone:
+        <input type="tel" name="telefone" placeholder="Digite seu telefone" required>
+
+       <button type="button" onclick="window.location.href='index.html'">
+    Enviar
+</button>
+    </form>
+
+</body>
+</html>
